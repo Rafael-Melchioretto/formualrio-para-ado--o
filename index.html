@@ -2,9 +2,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style's/style.css">
+
+    <title>Formulário de Adoção de Cães</title>
 </head>
 <body>
+
+    <div class="container">
+
+        <h3> Cadastro - Formulário - Adoção</h3>
+
+        <form action="" id="formulario">
+
+            <label for="nome"> Nome: </label><br>
+            <input type="text" id="nome" required placeholder="Nome">
+           
+        </br>
+
+        
+            <label for="email"> Email: </label><br>
+            <input type="text" id="email" placeholder="Email">
+            
+    </br>
+
+
+            <label for="telefone"> Telefone: </label><br>
+            <input type="text" id="telefone" placeholder="00000-0000">
+            
+             </br>
+
+
+            <label for="cpf"> CPF: </label> <br>
+            <input type="text" id="cpf" placeholder="00000000000000">
+            
+ </br>
+
+            <label for="idade"> Idade: </label> <br>
+            <input type="number" id="idade" placeholder="000">
+            
+ </br>
+
+            <label for="cidade"> Cidade: </label> <br>
+            <input type="text" id="cidade" placeholder="Cidade">
+            
+<br><br>
+            <label for="moradia"> Tipo de Moradia </label><br>
+            <label for="moradia"> Casa </label> 
+            <input type="radio" id="moradia_c" name = "moradia" value = "Casa" placeholder="Moradia">
+            
+
+             <label for="moradia"> Apartamento</label> 
+            <input type="radio" id="moradia_a" name = "moradia" value = "Apartamento" placeholder="Moradia">
+            
+            <br><br>
+ 
+
+            <label for="quintal"> Possui quintal: </label> <br>
+
+             <label for="quintal"> Sim </label> 
+            <input type="radio" id="quintal_sim" name="quintal" value="Sim" placeholder="Quintal">
+           
+
+            <label for="quintal"> Nao </label> 
+            <input type="radio" id="quintal_nao" name="quintal" value="Nao" placeholder="Quintal">
+            
+ <br><br>
+
+            <label for="pet"> Ja teve Pet?</label> <br>
+
+            <label for="pet"> Sim </label> 
+            <input type="radio" id="pet_sim" name ="pet" value="Sim" placeholder="Pet">
+            
+
+
+            <label for="pet"> Nao </label> 
+            <input type="radio" id="pet_nao" name ="pet" value="Nao" placeholder="Pet"> 
+            
+ <br><br>
+
+            <label for="horasAnimal"> Quantas horas animal fica sozinho por dia: </label> <br>
+            <input type="number" id="horasAnimal" placeholder="00">
+            <br><br>
+            
+
+            <label for="motivo"> Motivo da adoção: </label> <br>
+
+            <textarea name="motivo" id="motivo"></textarea>
+            <br><br>
+            
+ </br>
+
+            <label for="permite"> Permite Animais? (Apartamento)</label>
+            <input type = "checkbox" id="permite">
+<br><br>
+
+            <label for="seguro"> Quintal seguro? (Casa)</label>
+            <input type = "checkbox" id="seguro">
+<br><br>
+
+             <label for="financeiro"> Tem Condições Financeiras</label>
+            <input type = "checkbox" id="financeiro">   
+            <br><br>
+
+            <label for="adotar"> Decidiu adotar hoje?</label>
+            <input type = "checkbox" id="adotar">   
+            <br><br>
+
+
+          <label for="termo"> Termos de Acessibilidade </label> <br>
+
+             <label for="termo"> Aceito </label> <br>
+            <input type="checkbox" id="termo" placeholder = "Termo de Acessibilidade">
+</br>
+
+
+            <br>
+
+          <button type="submit"> Enviar </button>
+
+        </form>
+
+        <div class="resultado_1" id="resultado"> </div>
+
+    </div>
+
+    <script src="script/script.js"></script>
     
+</body>
+</html>
 </body>
 </html>
